@@ -1,7 +1,8 @@
 k = int(input())
 m = int(input())
-n = int(input())
+n = int(input())  # считали вход
+
 p = n // k
-if n%k != 0:
+if n % k != 0:  # условие, которое проверяет, будет ли последняя обжарка неполной
     p += 1
 print(p * m * 2)
